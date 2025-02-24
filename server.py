@@ -11,8 +11,8 @@ S3_BUCKET = f"{ASU_ID}-in-bucket"
 SIMPLEDB_DOMAIN = f"{ASU_ID}-simpleDB"
 
 session = boto3.Session(
-    aws_access_key_id = os.environ.get('AWS_ACCESS_KEY_ID')
-    aws_secret_access_key = os.environ.get('AWS_SECRET_ACCESS_KEY')
+    aws_access_key_id="AKIA4RCAOGXU2E3DFERI",
+    aws_secret_access_key="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",
     region_name="us-east-1"
 )
 
